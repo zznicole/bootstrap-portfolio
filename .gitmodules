@@ -1,0 +1,6 @@
+[submodule "portfolio/newsapp"]
+	path = portfolio/newsapp
+	url = https://github.com/zznicole/newsapp
+[submodule "portfolio/todolists-app"]
+	path = portfolio/todolists-app
+	url = https://github.com/zznicole/todolists-app
