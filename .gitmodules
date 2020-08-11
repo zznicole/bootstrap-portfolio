@@ -4,3 +4,15 @@
 [submodule "portfolio/todolists-app"]
 	path = portfolio/todolists-app
 	url = https://github.com/zznicole/todolists-app
+[submodule "portfolio/speechRecognition-app"]
+	path = portfolio/speechRecognition-app
+	url = https://github.com/zznicole/speechRecognition-app.git
+[submodule "portfolio/project-montichello"]
+	path = portfolio/project-montichello
+	url = https://github.com/zznicole/project-montichello.git
+[submodule "portfolio/ajax-movieSearch"]
+	path = portfolio/ajax-movieSearch
+	url = https://github.com/zznicole/ajax-movieSearch.git
+[submodule "portfolio/customizedMap"]
+	path = portfolio/customizedMap
+	url = https://github.com/zznicole/customizedMap.git

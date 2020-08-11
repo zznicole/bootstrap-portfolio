@@ -66,4 +66,16 @@
     });
   
   })(jQuery); // End of use strict
-  
+
+let tl = gsap.timeline();
+
+tl.from(".blast", {
+    duration: 5,
+    opacity: 0,
+    stagger: 0.25,
+})
+  .from(".masthead-subheading", {
+    duration: 5,
+    opacity: 0,
+    stagger: 0.25,
+}  -=0.5)

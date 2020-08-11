@@ -10131,7 +10131,7 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   background-image: url(../assets/img/header-bg.png);
   background-repeat: no-repeat;
 }
@@ -10139,22 +10139,20 @@ h3 {
   font-family: 'Freckle Face', cursive;
   font-size: 2rem;
   line-height: 6.75rem;
-  letter-spacing: 10px;
+  opacity: 1;
 }
 
 
 
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  opacity: 1;
 }
 .masthead .masthead-avatar {
   width: 15rem;
 }
-#name {
-  color: aquamarine;
-}
 
-#title {
+.title {
   color: aquamarine;
   font-size: 1.8rem;
 
