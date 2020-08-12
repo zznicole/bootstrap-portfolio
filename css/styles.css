@@ -393,6 +393,7 @@ h6, .h6 {
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: .1em;;
+  margin: auto 1rem;
 }
 
 .display-1 {
@@ -10150,6 +10151,10 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+}
+
+p {
+  text-align: left;
 }
 
 .name {
