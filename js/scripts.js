@@ -70,17 +70,17 @@
 let tl = gsap.timeline();
 
 tl.from(".blast", {
-    duration: 2,
+    duration: .5,
     opacity: 0,
     stagger: 0.15,
-    delay: 1
-})
+    delay: .3
+}, "-=.01")
   .from(".title", {
     opacity: 0,
-    duration: 2
-}, "-=.1")
+    duration: 1
+}, "-=.01")
   .from(".subtitle", {
     opacity: 0,
     duration: 2
-}, "-=.1")
+})
  
