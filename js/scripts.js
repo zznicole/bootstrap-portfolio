@@ -70,12 +70,17 @@
 let tl = gsap.timeline();
 
 tl.from(".blast", {
-    duration: 5,
+    duration: 2,
     opacity: 0,
-    stagger: 0.25,
+    stagger: 0.15,
+    delay: 1
 })
-  .from(".masthead-subheading", {
-    duration: 5,
+  .from(".title", {
     opacity: 0,
-    stagger: 0.25,
-}  -=0.5)
+    duration: 2
+}, "-=.1")
+  .from(".subtitle", {
+    opacity: 0,
+    duration: 2
+}, "-=.1")
+ 

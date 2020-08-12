@@ -392,6 +392,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  letter-spacing: .1em;;
 }
 
 .display-1 {
@@ -10139,10 +10140,9 @@ h3 {
   font-family: 'Freckle Face', cursive;
   font-size: 2rem;
   line-height: 6.75rem;
+  letter-spacing: 1rem;
   opacity: 1;
 }
-
-
 
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -10152,10 +10152,14 @@ h3 {
   width: 15rem;
 }
 
+.name {
+  color: aquamarine;
+}
+
 .title {
   color: aquamarine;
-  font-size: 1.8rem;
-
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 @media (min-width: 992px) {
