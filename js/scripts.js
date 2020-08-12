@@ -69,7 +69,7 @@
 
 let tl = gsap.timeline();
 
-tl.from(".blast", {
+tl.from(".blast,.masthead-avatar", {
     duration: .5,
     opacity: 0,
     stagger: 0.15,
