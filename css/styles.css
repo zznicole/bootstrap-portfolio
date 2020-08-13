@@ -10167,6 +10167,10 @@ p {
   font-weight: 700;
 }
 
+.notes {
+  font-size: 0.5;
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
