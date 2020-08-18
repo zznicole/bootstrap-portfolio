@@ -10134,7 +10134,7 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 4rem;
-  background-image: url(../assets/img/header-bg.png);
+  background-image: url(../assets/img/hero-bg.mp4);
   background-repeat: no-repeat;
 }
 .masthead .masthead-heading {
@@ -10170,6 +10170,23 @@ p {
 .notes {
   font-size: 0.5;
 }
+
+video#bgvideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  }
 
 @media (min-width: 992px) {
   .masthead {
