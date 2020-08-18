@@ -10171,6 +10171,10 @@ p {
   font-size: 0.5;
 }
 
+.text-works {
+  color: aquamarine;
+}
+
 video#bgvideo {
   position: fixed;
   top: 50%;
@@ -10220,13 +10224,13 @@ video#bgvideo {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: aquamarine;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
