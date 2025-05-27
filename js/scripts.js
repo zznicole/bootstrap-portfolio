@@ -67,8 +67,7 @@
   
   })(jQuery); // End of use strict
 
-//Heading
-
+//Heading animation
 let tl = gsap.timeline();
 
 tl.from(".blast,.masthead-avatar", {
